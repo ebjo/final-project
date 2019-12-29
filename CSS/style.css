@@ -1,0 +1,409 @@
+body	{
+	text-align: middle;
+	padding: 20px;
+	margin: 20px;
+	align-items: center;
+}
+
+h1, h2{
+	font-family: playfair-display;
+	font-weight: lighter;
+}
+
+h3{
+	font-family: PT serif;
+	font-size: 20px;
+	font-weight: lighter;
+	color: rgb(191,46,37);
+
+}
+
+p{
+	font-family: PT serif;
+	font-size: 18px;
+	font-weight: lighter;
+}
+
+a {
+	font-family: PT serif;
+	font-weight: bolder;
+}
+
+#header {
+	padding: 30px;
+	color: rgb(191,46,37);
+	border-bottom-style: solid;
+	border-width: 1px;
+	border-color: rgb(223,226,230);
+}
+
+#menus{
+	display: flex;
+	justify-content: center;
+	border-bottom-style: solid;
+	border-width: 1px;
+	border-color: rgb(223,226,230);
+}
+
+#home a{
+	text-decoration: none;
+	color: rgb(191,46,37);
+	padding-top: 8px; 
+	margin: 15px;
+}
+
+#menu a{
+	text-decoration: none;
+	color:black;
+	padding-top: 8px;
+	margin: 15px;
+
+}
+
+#search {
+	border-radius: 50%;
+	border-style: solid;
+	border-color: rgb(223,226,230);
+	border-width: 1px;
+	width: 27px;
+	height: 27px;
+	padding: 3px;
+	text-align: center;
+	align-content: middle;
+}
+
+#search i:hover {
+	color: rgb(191,46,37);
+}
+
+#menu a:hover{
+	color: rgb(191,46,37);
+}
+
+
+.whole {
+	display: flex;
+	justify-content: center;
+	border-bottom-style: solid;
+	border-width: 1px;
+	border-color: rgb(223,226,230);
+
+}
+
+.whole	p{
+		text-shadow: 1px 1px 2px black;
+
+}
+
+.bigbox {
+	padding-top: 30px;
+}
+
+.maocai {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: flex-end;
+	background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url(../images/maocai.jpg);
+	background-size: cover;
+	width:850px ;
+	height:500px;
+	text-align: left;
+	color:white;
+	padding: 15px;
+	text-decoration: none;
+}
+
+.maocai:hover {
+	background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url(../images/maocai.jpg);
+	background-size: cover;
+	width:850px ;
+	height:500px;
+}
+
+
+.twins{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 30px;
+}
+
+.smallbox {
+	padding: 30px;
+}
+
+.smallboxbox {
+	padding-bottom: 30px;
+}
+
+.beer{
+	display: flex;
+	flex-wrap: wrap;
+	align-content: flex-end;
+	background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)),  url(../images/beer.jpg);
+	background-position: center;
+	background-size: cover;
+	width: 410px;
+	height: 300px;
+	text-align: left;
+	color: white;
+	padding: 15px;
+}
+
+.beer:hover {
+	background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)),  url(../images/beer.jpg);
+	background-position: center;
+	background-size: cover;
+	width: 410px;
+	height: 300px;
+
+}
+
+.trdlo{
+	display: flex;
+	flex-wrap: wrap;
+	align-content: flex-end;
+	background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url(../images/trdlo.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 410px;
+	height: 300px;
+	text-align: left;
+	color: white;
+	padding: 15px;
+}
+
+.trdlo:hover {
+	background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url(../images/trdlo.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 410px;
+	height: 300px;
+}
+
+.hotpot {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: flex-end;
+	background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)),  url(../images/hotpot.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 400px;
+	height: 400px;
+	text-align: left;
+	color: white;
+	padding: 15px;
+}
+
+.hotpot:hover {
+	background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)),  url(../images/hotpot.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 400px;
+	height: 400px;
+}
+
+.koleno {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: flex-end;
+	background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)),  url(../images/koleno.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 400px;
+	height: 400px;
+	text-align: left;
+	color: white;
+	padding: 15px;
+}
+
+.koleno:hover {
+	background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)),  url(../images/koleno.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 400px;
+	height: 400px;
+}
+
+#click {
+	text-decoration: none;
+}
+
+
+
+.side {
+	display: flex;
+	border-bottom: solid;
+	border-width: 1px;
+	border-color: rgb(223,226,230);
+
+}
+
+.posts img{
+	height: 200px;
+	width: 200px;
+}
+
+.posts p{
+	font-size: 16px;
+}
+.posts h3 {
+	font-size: 18px;
+	color: rgb(193,46,37);
+}
+
+.posts {
+	border-right: solid;
+	border-width: 1px;
+	border-color: rgb(223,226,230);
+	width: 900px;
+}
+
+.post {
+	display: flex;
+	border-bottom: solid;
+	border-width: 1px;
+	border-color: rgb(223,226,230);
+	padding: 5px;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	margin-right: 40px;
+	margin-left: 20px;
+}
+
+.post a{
+	text-decoration: none;
+}
+
+.post a:hover{
+	color: black;
+}
+
+.post h3:hover {
+	color: black;
+}
+
+#last {
+	border-bottom: none;
+}
+
+.text {
+	padding-left: 30px;
+	padding-top: 15px;
+	padding-right: 20px;
+}
+
+.text a{
+	color: rgb(193,46,37);
+
+
+}
+
+.sidebar {
+	width: 380px;
+	padding: 60px;
+}
+
+
+.recents h2 {
+	border-bottom: solid;
+	border-width: 1px;
+	border-color: rgb(223,226,230);
+	padding-bottom: 30px;
+}
+.recents a{
+	display: flex;
+	border-bottom: solid;
+	border-width: 1px;
+	border-color: rgb(223,226,230);
+	color: rgb(193,46,37);
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-decoration: none;
+}
+
+.recents a:hover{
+	color: black;
+}
+
+.comment h2{
+	color: black;
+	padding-top: 80px;
+}
+
+.comment p{
+	font-size: 18px;
+}
+
+
+.bottom {
+	display: flex;
+	justify-content: space-around;
+	padding-top: 50px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 50px;
+	border-bottom-style: solid;
+	border-width: 1px;
+	border-color: rgb(223,226,230);
+
+}
+
+.bottom a{
+	color:rgb(193,46,37);
+}
+
+.b1 {
+	width: 300px;
+}
+
+.me {
+	width: 250px;
+
+}
+
+.eb {
+	display: flex;
+	justify-content: space-between;
+}
+
+#avatar {
+	width: 60px;
+	height:60px;
+	border-radius: 50%;
+}
+
+.chicken {
+	width: 250px;
+	
+
+}
+
+#bmenu a{
+	text-decoration: none;
+	color: gray;
+	padding: 10px;
+	font-size: 14px;
+	}
+
+#bmenu a:hover {
+	color: rgb(193,46,37);
+
+}
+
+#bmenu {
+	display: flex;
+	justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
